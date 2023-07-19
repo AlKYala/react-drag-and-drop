@@ -1,0 +1,19 @@
+.rootGrid {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+  }
+  .treeRoot {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 32px;
+  }
+  
+  .draggingSource {
+    opacity: 0.3;
+  }
+  
+  .dropTarget {
+    background-color: #e8f0fe;
+  }
+  
